@@ -91,6 +91,9 @@ body {
 }
 
 @media (max-width: 470px) {
+    body{
+        overflow: auto;
+    }
     .container{
         height: 100%;
         flex-direction: column;
