@@ -109,3 +109,9 @@ body {
         width: 90vw;
     }
 }
+
+@media (orientation:landscape) {
+    body{
+        overflow: auto;
+    }
+}
